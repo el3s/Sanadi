@@ -1,34 +1,53 @@
-# Gradle files
+# Gradle
 .gradle/
 build/
+*.apk
+*.ap_
+*.aab
 
-# Local configuration file (sdk path, etc)
+# Android Studio
+.idea/
+.DS_Store
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
 local.properties
 
-# Log/OS Files
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/modules.xml
+.idea/dictionaries/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+/node_modules/
+
+# Test results
 *.log
+/coverage/
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# Kotlin
+out/
+*.kt.bak
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Android
+proguard-mapping.txt
 
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Generated files
+src/main/java/com/sanadi/BuildConfig.java
